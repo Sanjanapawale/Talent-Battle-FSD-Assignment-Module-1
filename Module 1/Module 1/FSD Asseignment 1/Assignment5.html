@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration</title>
+</head>
+<style>
+    .button button {
+        border: 2px solid black;
+        border-radius: 5px;
+        width: 100px;
+        height: 40px;
+        margin-left: 2%;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <div style="background-color: blue; text-align:center; color: white;">
+        <p style="font-size: 25px;"><b>Assignment 5</b></p>
+        <p style="font-size: 20px;">Create<u> employee registration</u> webpage using <mark><strong> HTML form</strong>
+            </mark>objects.</p>
+    </div>
+    <div style="background-color:rgb(214, 214, 230);">
+        <form action="Employee registration.php" style="margin-left: 8px;">
+            First Name:
+            <input type="text" name=fn style="margin-top: 8px;">
+            <br>
+            <br>
+            Last Name:
+            <input type="text" name=ln>
+            <br>
+            <br>
+            Email ID:
+            <input type="email" name="email">
+            <br>
+            <br>
+            Mobile no.
+            <input type="text" name="mobile">
+            <br>
+            <br>
+            Qualification:
+            <select name="qualification">
+                <option value="bsc">BSc</option>
+                <option value="bca">BCA</option>
+                <option value="bcs">BCS</option>
+                <option value="be">BE</option>
+                <option value="btech">BTech</option>
+                <option value="me">ME</option>
+                <option value="mtech">MTech</option>
+                <option value="mca">MCA</option>
+                <option value="msc">MSc</option>
+            </select>
+            <br>
+            <br>
+            Gender:
+            <br>
+            <input type="radio" name="gender" value="male" checked>Male<br>
+            <input type="radio" name="gender" value="female">Female<br>
+            <input type="radio" name="gender" value="other">Other<br>
+            <br>
+            Language:
+            <br>
+            <input type="checkbox" name="language" value="english">English<br>
+            <input type="checkbox" name="language" value="hindi">Hindi<br>
+            <input type="checkbox" name="language" value="marathi">Marathi<br>
+            <input type="checkbox" name="language" value="gujrati">Gujarati<br>
+            <input type="checkbox" name="language" value="sankrit">Sanskrit<br>
+            <br>
+            Address:
+            <br>
+            <textarea name="address" rows="2" cols="30" placeholder="Enter address"></textarea>
+            <br>
+            <br>
+            <div class="button">
+                <button onclick="alert('Form submitted successfuly')">Submit</button>
+                <button>Clear</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

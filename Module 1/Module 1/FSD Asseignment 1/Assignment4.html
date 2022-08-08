@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Tag</title>
+</head>
+
+<style>
+    .img-container {
+        display: flex;
+        margin-left: 5px;
+    }
+
+    .img-container div img {
+        width: 345px;
+    }
+
+    .img-container div {
+        margin: 10px;
+
+    }
+
+    #img1 {
+        border: 2px solid black;
+        border-top-left-radius: 50px;
+    }
+
+    #img2 {
+        border: 2px solid black;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+    #img3 {
+        border: 2px solid black;
+        border-bottom-right-radius: 50px;
+    }
+</style>
+
+<body>
+    <div style="text-align: center;background-color: blue;color: white;">
+        <p style="font-size: 25px;"><b>Assingment No 4</b></p>
+        <p style="font-size: 20px;"> Create webpage to <mark>include image</mark> using HTML tag</p>
+    </div>
+    <div>
+        <h1 style="text-align: center;">College Campus Photos</h1>
+        <h2 style="text-align: center;"><i>img fetch from local repository</i></h2>
+        <div class="img-container">
+            <div>
+                <img id="img1" src="1.jpg" alt="college-celebration-img">
+            </div>
+
+            <div>
+                <img id="img2" src="2.jpg" alt="college-celebration-img">
+            </div>
+
+            <div>
+                <img id="img2" src="3.jpg" alt="college-celebration-img">
+            </div>
+
+            <div>
+                <img id="img2" src="4.jpg" alt="college-celebration-img">
+            </div>
+
+        </div>
+
+        <h2 style="text-align: center ;"><i>img fetch from link-address</i></h2>
+        <div class="img-container">
+            <div>
+                <img id="img2" src="https://jspmjscoe.edu.in/storage/Gallery/13.jpg" alt="college-celebration-img">
+            </div>
+
+            <div>
+                <img id="img2" src="https://jspmjscoe.edu.in/storage/Gallery/14.jpg" alt="college-celebration-img">
+            </div>
+
+            <div>
+                <img id="img2" src="https://jspmjscoe.edu.in/storage/Gallery/2.jpg" alt="college-celebration-img">
+            </div>
+
+            <div>
+                <img id="img3" src="https://jspmjscoe.edu.in/storage/Gallery/7.jpg" alt="college-celebration-img">
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
